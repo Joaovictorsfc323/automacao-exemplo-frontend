@@ -20,6 +20,7 @@ public class BrowserSetup {
 		
 	options = new ChromeOptions();	
 	options.addArguments("--start-maximized");
+	options.addArguments("--remote-allow-origins=*");
 	options.addArguments("--ignore-certificate-errors");
 	options.addArguments("--disable-popup-blocking");
 	options.addArguments("--incognito");

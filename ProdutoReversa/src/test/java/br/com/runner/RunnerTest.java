@@ -16,7 +16,7 @@ import io.cucumber.junit.Cucumber;
 		,plugin = {"pretty","html:target/cucumber-reports"}
 		,snippets = CucumberOptions.SnippetType.CAMELCASE
 		
-		,tags = "@minhaconta01"
+		,tags = "@login01"
 		
 		
 		)
